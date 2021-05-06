@@ -5,7 +5,7 @@ name: CI example
 on [push]
 
 jobs:
-  build
+  build:
 
   container: circleci/python:3.7
 
