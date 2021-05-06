@@ -2,11 +2,11 @@
 # GitHub actions
 name: CI example
 
-on [push]
+on: [push]
 
 jobs:
   build:
-
+  runs-on: ubuntu-latest
   container: circleci/python:3.7
 
   steps:
