@@ -12,8 +12,10 @@ def saludo2():
 def saludo3():
     return "Hola, ¿Qué tal?"
 
+
 def saludo4():
-    return "Kaixo, egun on"
+    return "Kaixo"
+
 
 saludo = random.randint(0, 5)
 
