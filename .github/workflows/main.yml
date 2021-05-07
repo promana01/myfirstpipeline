@@ -17,7 +17,7 @@ jobs:
       # Step 2: creamos venv e instalamos dependencias
       - name: Install dependencies
         run: |
-          python3 -m venv venv
+         # python3 -m venv venv
           source venv/bin/activate
           pip install -r requirements.txt
       # Step 3: ejecutamos linters y flake8 y lanzamos casos de prueba
